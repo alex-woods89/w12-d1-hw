@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d34b76f-5bf0-4636-b972-e4146c54c1ef" name="Default Changelist" comment="" />
+    <list default="true" id="2d34b76f-5bf0-4636-b972-e4146c54c1ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/management/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/management/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DirectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/management/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/management/Director.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DirectorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DirectorTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/staff/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DeveloperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
+            <state relative-caret-position="427">
               <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,23 +128,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/management/Director.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#347#348#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DirectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="266">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#259#260#0" expanded="true" />
                 <element signature="e#276#277#0" expanded="true" />
                 <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,6 +164,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -165,12 +175,12 @@
         <option value="$PROJECT_DIR$/src/main/java/staff/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/management/Manager.java" />
         <option value="$PROJECT_DIR$/src/test/java/ManagerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/management/Director.java" />
         <option value="$PROJECT_DIR$/src/main/java/techstaff/Developer.java" />
         <option value="$PROJECT_DIR$/src/main/java/techstaff/DBAdmin.java" />
         <option value="$PROJECT_DIR$/src/test/java/DBAdminTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DirectorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DeveloperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/management/Director.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DirectorTest.java" />
       </list>
     </option>
   </component>
@@ -182,11 +192,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="117" />
+    <option name="x" value="-18" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="816" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -238,14 +249,6 @@
               <item name="InheritanceLab" type="b2602c69:ProjectViewProjectNode" />
               <item name="InheritanceLab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="techstaff" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InheritanceLab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InheritanceLab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -261,6 +264,9 @@
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -344,18 +350,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DirectorTest_canGetName - 2019.10.14 at 15h 20m 30s.xml">
-      <configuration name="DirectorTest.canGetName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_InheritanceLab - 2019.10.14 at 15h 27m 27s.xml">
-      <configuration name="All in InheritanceLab" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_InheritanceLab - 2019.10.14 at 15h 34m 18s.xml">
-      <configuration name="All in InheritanceLab" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_InheritanceLab - 2019.10.14 at 15h 34m 46s.xml">
-      <configuration name="All in InheritanceLab" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_InheritanceLab - 2019.10.14 at 15h 37m 18s.xml">
       <configuration name="All in InheritanceLab" configurationId="JUnit" />
     </history-entry>
@@ -374,9 +368,21 @@
     <history-entry file="All_in_InheritanceLab - 2019.10.14 at 15h 42m 16s.xml">
       <configuration name="All in InheritanceLab" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_InheritanceLab - 2019.10.14 at 16h 46m 48s.xml">
+      <configuration name="All in InheritanceLab" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_InheritanceLab - 2019.10.14 at 16h 47m 00s.xml">
+      <configuration name="All in InheritanceLab" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DirectorTest_canGetbudget - 2019.10.14 at 16h 47m 36s.xml">
+      <configuration name="DirectorTest.canGetbudget" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_InheritanceLab - 2019.10.14 at 16h 50m 35s.xml">
+      <configuration name="All in InheritanceLab" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="117" y="23" width="1440" height="816" extended-state="0" />
+    <frame x="-18" y="23" width="1440" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -384,7 +390,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -392,8 +398,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.32872927" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32872927" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872927" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -438,16 +444,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/management/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -503,23 +499,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/management/Director.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DirectorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="225">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -536,14 +521,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="249" selection-start-line="249" selection-end-line="249" />
+          <folding>
+            <element signature="e#8741#8742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DeveloperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
+        <state relative-caret-position="427">
           <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#224#225#0" expanded="true" />
             <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/management/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DirectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
           </folding>
         </state>
       </provider>
