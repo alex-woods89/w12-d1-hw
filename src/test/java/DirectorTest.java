@@ -2,6 +2,7 @@ import management.Director;
 import org.junit.Before;
 import org.junit.Test;
 
+
 import static org.junit.Assert.assertEquals;
 
 public class DirectorTest {
@@ -34,10 +35,21 @@ public class DirectorTest {
     }
 
     @Test
+    public void canGetSalary(){
+        assertEquals(45000, director.getSalary());
+    }
+
+    @Test
     public void canBePaidDirectorBonus(){
      int newSalary = director.getSalary() + director.payBonus();
         assertEquals(45900, newSalary);
     }
 
+
+    @Test
+    public void canRaiseSalaryOfOtherStaff(){
+        director.raiseSalary(1000);
+        assertEquals(46000, director.getSalary());
+    }
 
 }

@@ -2,6 +2,7 @@ import management.Manager;
 import org.junit.Before;
 import org.junit.Test;
 
+
 import static org.junit.Assert.assertEquals;
 
 public class ManagerTest {
@@ -29,6 +30,11 @@ public class ManagerTest {
     }
 
     @Test
+    public void canGetNino(){
+        assertEquals("JK476kk7", manager.getNino());
+    }
+
+    @Test
     public void canPayBonus(){
         assertEquals(300, manager.payBonus());
     }
@@ -38,5 +44,7 @@ public class ManagerTest {
         manager.raiseSalary(1000);
         assertEquals(31000, manager.getSalary());
     }
+
+
 
 }

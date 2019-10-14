@@ -1,8 +1,6 @@
 package management;
 
 
-import staff.Employee;
-
 public class Director extends Manager {
 
     private double budget;
